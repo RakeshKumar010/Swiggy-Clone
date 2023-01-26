@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
+    background-color: rgb(184, 19, 47);
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.card{
+
+    width: 295px;
+    /* width: 22vw; */
+    /* height: 65vh; */
+    height: 350px;
+    background-color: rgba(192, 192, 192, 0.082);
+    padding: 1.5vw;
+}
+.cardImg{
+    /* width: 80%; */
+    width: 254px;
+    height: 160px;
+}
+.name{
+    font-size: x-large;
+    padding: 0.5vw 0;
+}
+.location{
+    font-size: small;
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:small;
+    padding: 1vw 0;
+
+}
+.inline .rating{
+    background-color: rgb(2, 199, 2);
+    color: rgb(255, 255, 255);
+    padding:3px ;
+}
+.iconbottom{
+    display: flex;
+    gap:10px;
+    color: rgb(255, 115, 0);
+    margin: 1vw 0;
+}
+.Percentage{
+    width: 8%;
+}

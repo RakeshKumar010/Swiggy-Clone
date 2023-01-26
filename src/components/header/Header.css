@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 4%;
+    position: absolute;
+   left: 5vw;
+
+}
+.header{
+    width: 100vw;
+    height: 13vh;
+}
+
+.header ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    height: 13vh;
+    list-style-type: none;
+    
+    
+}
+ul li{
+    padding-right:5vw;
+}
+.Search,.Offers,.Help,.SignIn,.Cart{
+    display: flex;
+    align-items: center;
+}
+
+
